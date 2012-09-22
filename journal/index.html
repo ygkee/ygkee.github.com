@@ -1,12 +1,11 @@
 ---
 layout: default
-home: true
-title: 那被岁月覆盖的花开，一切白驹过隙成为空白...
-excerpt: Kee; 那被岁月覆盖的花开，一切白驹过隙成为空白...
+title: Journal
+excerpt: The complete journal of kee's articles.
 ---
 
 <ul id="articles">
-{% for post in site.posts limit:10 %}
+{% for post in site.posts %}
   <li>
     <h3>
     {% if post.elsewhere %}
@@ -29,7 +28,3 @@ excerpt: Kee; 那被岁月覆盖的花开，一切白驹过隙成为空白...
   </li>
 {% endfor %}
 </ul>
-
-<p class="small">
-  Didn't find what you were looking for? There's more in the <a href="/journal">Journal</a>.
-</p>

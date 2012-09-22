@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{http_host} ^www\.kerepo\.com [NC]
+RewriteRule ^(.*)$ http://kerepo.com/$1 [R=301,NC]
+
