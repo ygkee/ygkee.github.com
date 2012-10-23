@@ -33,7 +33,8 @@
     <h2>{{ page.title }}</h2>
     {{ content }}
   </div>
-
+{% if page.title == 'Contact' %}
+{% else %}
   <div id="ads">
   	<div class="ad" id="ad_main">
       <div class="carbonad">
@@ -50,7 +51,7 @@
         <img style="height:50px;" src="/images/yooog2.png"/>
     </div>
   </div>
-
+{% endif %}
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-12888762-1']);
