@@ -7,22 +7,24 @@ published: true
 
 利用Disk Images and Configuration Profiles切换服务器
 
-* shutdown
+* 1.shutdown
 
-* resize disk
+* 2.resize disk
 
-* edit profile
+* 3.edit profile
 
-* boot
+* 4.boot
 
-* mount /dev/？
+* 5.mount /dev/？
 
-* cp&backup
+* 6.cp&backup
 
-* remove disk
+* 7.remove disk
 
-* remove profile
+* 8.remove profile
 
-* deploy a linux distribution
+* 9.deploy a linux distribution
 
+* 10.repet 3,4,5
 
+* 11.restore 
